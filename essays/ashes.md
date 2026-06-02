@@ -11,7 +11,7 @@ labels:
   - ICS
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
+<img width="300px" class="rounded float-start pe-4" src="../img/phoenix-7436787_960_720.jpg">
 
 ## Is there such thing as a stupid question?
 
