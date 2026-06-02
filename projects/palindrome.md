@@ -18,7 +18,7 @@ In my ICS 211 class, we were tasked with implementing a code where the user can 
 
 <img class="img-fluid" src="/img/pali.png">
 
-While this project was meant to be a fun and kind of silly, I actually learned a lot from being able to learn about problem solving and trial and error. For example the code above, kept having several issues when trying to run my program. From being unable to run the program entirely to not being able to change all the letters to lower case. After several attemts of trial and error, I was finally able to create a functioning line of code, that met all the assignment requirements. This project taught me a lot about working whith while loops and how to find errors within them.
+While this project was meant to be a fun and kind of silly, I actually learned a lot from being able to learn about problem solving and trial and error. For example the code above, kept having several issues when trying to run my program. From being unable to run the program entirely to not being able to change all the letters to lower case. After several attemts of trial and error, I was finally able to create a functioning line of code, that met all the assignment requirements. This project taught me a lot about working whith While loops and how to find errors within them.
 
 
 Here is the project outline with screenshots: [Project Outline](https://docs.google.com/document/d/1aSDl33MuRLlSPhBUZJnROZNNP-RW8MWq/edit?usp=sharing&ouid=116406885797308709788&rtpof=true&sd=true)
