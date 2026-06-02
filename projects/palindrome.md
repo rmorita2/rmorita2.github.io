@@ -14,48 +14,11 @@ summary: "For my ICS 211 we were tasked with implementing a Palindrome detector 
 
 <img class="img-fluid" src="/img/palin.png">
 
-Cotton is a horror-style text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+In my ICS 211 class, we were tasked with implementing a code where the user can input any string of characters such as; letters, numbers, and special characters. Afterwards, the program would then filter out all of the numbers and special characters, leaving only letters the program would then change all the letters to a single case, for this project I chose to change the case to lower case. Finaly, the program would then determine if the remaining string of letters result in a palindrome. That is to say a string of letters that can be read the same way both forward and backwards. 
 
-To give you a flavor of the game, here is an excerpt from one run:
+<img class="img-fluid" src="/img/pali.png">
 
-<hr>
-
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
-
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
-
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
+While this project was meant to be a fun and kind of silly, I actually learned a lot from being able to learn about problem solving and trial and error. For example the code above, kept having several issues when trying to run my program. From being unable to run the program entirely to not being able to change all the letters to lower case. After several attemts of trial and error, I was finally able to create a functioning line of code, that met all the assignment requirements. This project taught me a lot about working whith while loops and how to find errors within them.
 
 
 Here is the project outline with screenshots: [Project Outline](https://docs.google.com/document/d/1aSDl33MuRLlSPhBUZJnROZNNP-RW8MWq/edit?usp=sharing&ouid=116406885797308709788&rtpof=true&sd=true)
