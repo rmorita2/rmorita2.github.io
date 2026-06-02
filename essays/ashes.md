@@ -6,9 +6,9 @@ title: "Rising From the Ashes"
 date: 2026-05-29
 published: true
 labels:
-  - Questions
-  - Answers
-  - StackOverflow
+  - Starting new
+  - Education
+  - ICS
 ---
 
 <img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
