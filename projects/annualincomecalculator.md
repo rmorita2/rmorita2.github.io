@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/desktop-calculator-11530973013b039xl4ur5.png
 title: "Annual Income Calculator"
 date: 2024-02-13
 labels:
