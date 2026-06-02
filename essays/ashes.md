@@ -15,7 +15,7 @@ labels:
 
 ## New Beginning
 
-When I first graduated high school, I believed that the world was my oyster. I had a 3.7 GPA, I got accepted into every college I applied to, and I was taking my first steps at being an independent college girl. I enrolled at Whittier College in California, and I instsntly thought, 
+When I first graduated high school, I believed that the world was my oyster. I had a 3.7 GPA, I got accepted into every college I applied to, and I was taking my first steps at being an independent college girl. I enrolled to Whittier College in California, and I instantly thought; 
 
 "This is it!! I'm going to study hard, graduate, make new friends, maybe get a job and apartment here in California! My family is going to be so proud!"
 
