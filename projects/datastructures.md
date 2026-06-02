@@ -16,5 +16,9 @@ summary: "For my ICS 211 class, we were instructed to create an interactive dyna
 
 
 
-Here is the project outline with screenshots: [Project Outline]
-(https://docs.google.com/document/d/10RrWNpN8QY-NTX8BwobVQcOLuUC-tevm/edit?usp=sharing&ouid=116406885797308709788&rtpof=true&sd=true)
+
+
+
+Here is the project outline with screenshots: [Project Outline](https://docs.google.com/document/d/10RrWNpN8QY-NTX8BwobVQcOLuUC-tevm/edit?usp=sharing&ouid=116406885797308709788&rtpof=true&sd=true)
+
+
