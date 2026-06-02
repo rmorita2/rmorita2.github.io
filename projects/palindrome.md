@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/check-mark.png
 title: "Palindrome Detector"
 date: 2023-10-21
 published: true
