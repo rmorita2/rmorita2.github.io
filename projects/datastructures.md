@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/data.png
 title: "Data Structures through Linked Lists"
 date: 2023-09-30
 published: true
