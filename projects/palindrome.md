@@ -12,7 +12,7 @@ labels:
 summary: "For my ICS 211 we were tasked with implementing a Palindrome detector program that could detect wether or not a string of words, inputted by the user, is a palindrome or not."
 ---
 
-<img class="img-fluid" src="rmorita2.github.io/img/palin.png">
+<img class="img-fluid" src="/img/palin.png">
 
 Cotton is a horror-style text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
 
