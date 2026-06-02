@@ -57,5 +57,6 @@ The corridor is lit with the candle. It is so long that you cannot see to the en
 
 <hr>
 
-Here is the project outline with screenshots: [Project Outline]
-(https://docs.google.com/document/d/1aSDl33MuRLlSPhBUZJnROZNNP-RW8MWq/edit?usp=sharing&ouid=116406885797308709788&rtpof=true&sd=true)
+
+Here is the project outline with screenshots: [Project Outline](https://docs.google.com/document/d/1aSDl33MuRLlSPhBUZJnROZNNP-RW8MWq/edit?usp=sharing&ouid=116406885797308709788&rtpof=true&sd=true)
+
