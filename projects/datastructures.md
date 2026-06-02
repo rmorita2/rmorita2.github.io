@@ -12,7 +12,7 @@ labels:
 summary: "For my ICS 211 class, we were instructed to create an interactive dynamic single Linked List structure."
 ---
 
-<img class="img-fluid" src="..img/Untitled.png">
+<img class="img-fluid" src="/img/Untitled.png">
 
 
 
