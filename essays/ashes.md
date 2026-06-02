@@ -13,87 +13,30 @@ labels:
 
 <img width="300px" class="rounded float-start pe-4" src="../img/phoenix-7436787_960_720.jpg">
 
-## Is there such thing as a stupid question?
+## New Beginning
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
+When I first graduated high school, I believed that the world was my oyster. I had a 3.7 GPA, I got accepted into every college I applied to, and I was taking my first steps at being an independent college girl. I enrolled at Whittier College in California, and I instsntly thought, 
 
-## What’s a smart question?
+"This is it!! I'm going to study hard, graduate, make new friends, maybe get a job and apartment here in California! My family is going to be so proud!"
 
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
+However, life, as we all know by now, doesn't exactly play by the rules it lays out for the rest of us. My first year of school went great. I made some new friends, went out, got decent grades, and even did some extracurricular activicties. However, by the second year, things were falling apart at the seems. I stopped attending classes and my extraccuricular meetings, I hardly left my dorm room, my gardes and GPA sunk faster than the Titanic, and I just lost my spark. I was eventually put on academic suspension, due to my low grades, and never returned to that campus.
 
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
+I took a year off school, to kind of reevaluate my goals and ambitions. I eventually applied to Windward Community College, to work towards my goals of graduating. While friends and family all tried to comfort me and told me how proud they were that I didn't give up, I was humiliated. Such a fall from garce in such a short amount of time. If my high school self looked at my current self she'd probably laugh in my face. Well maybe not outwardly, but she'd definitely give me a judging look. I wouldn't exactly blame her, though. I've been in college since 2013, now it's 13 years later, and I'm barely scratching the surface of earning my Bachelor's degree. Still worrying about homework, while all of my former classmates are off on their own adventures. 
 
-```
-Q: python date of the previous month
+## Today
 
-I am trying to get the date of the previous month with python. Here is what i've tried:
+While I'm not where I though I would be, for now at least, I'm actually glad, I took a year off school. First, it gave me the time I needed to really think about what I wanted out of my life. It gave ne new perspectives on my relationships with, not only my family, but with my relationship with school. I'll be honest, I never really enjoyed school. I hated waking up early, homework, and being forced to write and read about topics that don't interest me. However, I always understood the importance of a higher education. Both of my parents were college graduates. So is my older sister, a recent doctorate. 
 
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
+The break also allowed me to truly understand what I'm passionate about and what can be a viable career for me to pursue. My aunty used to say, "Never career your passion." I never quite understood what she meant by that, but looking back now I can understand where she was coming from. In high school, I loved photography, but I understood that if I were to persue that passion, I would soon come to hate it, or at the very least not be very successful. Same with cooking, I love to cook for my family, but if I were to work in a restaurant, I wouldn't want anything to do with cooking, even for myself. Which led me to this problem: If I can't career my passion, what SHOULD I career?
 
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
+## 'Ao Kahi
 
-I have solved this trouble in bash with:
+At WCC I applied to many different classes to see what path would be a good fit for me, I soon applied for ICS 171, I had a few ICS classes under my belt already, and I always like working on the computer so this seemed to be the next logical step. Soon after, I recieved an email from the director of this program WCC provides called the 'Ao Kahi Career and Technical Education Project. Basically, it's an assisted program, that helps with financial aid, internships, and job placement. It aids in both Information Security and Sustainable Agriculture. One of the certificates they award students is the "Information Security Certificate of Competence." The student would need to enroll and pass with a C+ or higher in four of the required classes in order to recieve the certificate. It just so happened that ICS 171 was one of those required classes. So I readily applied.
 
-echo $(date -d"3 month ago" "+%G%m%d")
-
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
-
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
-
-Thanks for your help!
-```
-
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
-
-```
-A: datetime and the datetime.timedelta classes are your friend.
-
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
-
-Like this:
-
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
-
-```
- 
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
-
-## The foolproof way to get ignored.
-
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
-
-```
-Q: Facebook Desktop Notifier
-
-I am a beginner programmer that have never used anything other than what's included in a language.
-
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
-
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
-```
-
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
+The program was incredibly helpful, not only did they provide financial support with my classes, but they also encouraged me to really consider working in Computer Science. I was always on the fence about pursuing Computer Science. For one, math is my weakest subject so I'm already at a disadvantage, but also, while I like goofing off on the computer and playing video games on the computer, I never actually considered myself to actually help create or program for computers. However, I always believed in giving things a chance before making judgement, so I attended those classes, recieved my certificate, and the rest is history. 
 
 ## Conclusion
 
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+Paths are not always linear. There will come days when you think you have everything sorted out, but the next moment, everything gets flipped on it's head. Some situations may be more devastating than others. However, the important thing is what you do afterwards. When the dust settles and you reflect on what happened. What will you do then? Will you give up? Or are you going to get up, brush yourself off, learn from your past mistakes and keep moving forward? 
+
+Yes, there are days where I wish I had the power to travel back in time and change things in my past. However, I also believe that without that past experience, I never would have realized how important having a support system is, that taking the time to slow down and reflect is important for your development. As well as relaizing that even though it took me a while to get to this point, I never gave up om myself. Even on the days where I felt like quitting, I kept larning and growing, and that's something that college isn't able to teach you.
