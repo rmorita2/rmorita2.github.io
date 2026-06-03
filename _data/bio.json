@@ -9,7 +9,7 @@
     "summary": "I am a student at UH Manoa currently pursuing my Bachelor of Science in Computer Science. I hope to graduate by 2028.",
     "location": { "address": "", "postalCode": "96744", "city": "Kaneohe", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "rmorita2", "url": "http://github.com/rmorita2" },
+      { "network": "github", "username": "rmorita2", "url": "https://github.com/rmorita2" },
       { "network": "linkedin", "username": "Robyn Morita", "url": "https://www.linkedin.com/in/robyn-morita-3563aa92/?skipRedirect=true" }
     ]
   },
@@ -27,7 +27,7 @@
     },
     {
       "name": "Management",
-      "keywords": [ "Detail oriented", "Supervising/advising", "Creating employee's work schedules", "Inputing data into the company computer logs]
+      "keywords": [ "Detail oriented", "Supervising/advising", "Creating employee's work schedules", "Inputting data into the company computer logs"]
     },
    {
       "name": "Customer service",
@@ -39,8 +39,8 @@
       "institution": "University of Hawaii, Honolulu, HI",
       "area": "Computer Science (expected Spring, 2028)",
       "studyType": "Bachelor of Science",
-      "startDate": "Spring 2026",
-      "endDate": "Present",
+      "startDate": "2026-02-01",
+      "endDate": "2026-06-01",
       "courses": [
       ]
     }
@@ -51,9 +51,9 @@
       "position": "Front End Manager",
       "startDate": "2025-03-01",
       "endDate": "Present",
-      "summary": "Store manager and supervisor",
+      "summary": "Managing front-end operations and supervise employees.",
       "highlights": [
-        "Customer service, filing, inputing comperter data",
+        "Customer service, filing, inputing computer data",
         "Create work schedules, and supervise other workers"
       ]
     },
@@ -66,7 +66,8 @@
       "highlights": [
         "Troubleshoot software, hardware and networking issues over the phone",
         "Answer phone and email responses to the ITS Help Desk"
- }
+      ]
+     }
   ],
   "references": [
     {
