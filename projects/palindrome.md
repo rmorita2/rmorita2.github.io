@@ -14,7 +14,7 @@ summary: "For my ICS 211 we were tasked with implementing a Palindrome detector 
 
 <img class="img-fluid" src="/img/palin.png">
 
-In my ICS 211 class, we were tasked with implementing a code where the user can input any string of characters such as; letters, numbers, and special characters. Afterwards, the program would then filter out all of the numbers and special characters, leaving only letters the program would then change all the letters to a single case, for this project I chose to change the case to lower case. Finaly, the program would then determine if the remaining string of letters result in a palindrome. That is to say a string of letters that can be read the same way both forward and backwards. 
+In my ICS 211 class, we were tasked with implementing a code where the user can input any string of characters such as; letters, numbers, and special characters. Afterwards, the program would then filter out all of the numbers and special characters, leaving only letters the program would then change all the letters to a single case, for this project I chose to change the case to lower case. Finaly, the program would then determine if the remaining string of letters result in a palindrome. That is to say a string of letters that can be read the same way both forward and backwards.
 
 <img class="img-fluid" src="/img/pali.png">
 
