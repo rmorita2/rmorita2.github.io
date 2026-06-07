@@ -47,13 +47,15 @@ The same was true for functions. Writing a function with typed parameters and a 
 
 ## Differences: What challenged me
 
-Despite the familiar commands, TypeScript also introduced several differences that took some time to adjust to. The biggest challenge was understanding that TypeScript’s type system only exists at compile time. Coming from C++ and Java, where types matter at runtime, this was confusing at first. SUch as:
+Despite the familiar commands, TypeScript also introduced several differences that took some time to adjust to. First of all, TypeScript is much more lenient when it comes to identifying variables. For example:
 
 ```
-console.log("5" + 1); // "51"
+let value: string | number;
 ```
 
-Another challenge was learning TypeScript‑specific features like interfaces and type aliases. They look similar to Java interfaces, but they serve a different purpose: describing the “shape” of data rather than defining behavior. It took a while to understand when to use an interface versus when to use a class. 
+Where the value can be either string or number rather than having to identify each one separately. Coming from Java's stricter guidelines, this was both a surprising and welcomed change. Another challenge was learning TypeScript‑specific features like interfaces and type aliases. They look similar to Java interfaces, but they serve a different purpose: describing the “shape” of data rather than defining behavior. It took a while to understand when to use an interface versus when to use a class. 
+
+Another problem I kept running into when using TypeScript was that I found myself mixing up Java coding structures with TypeScript structures. Which, while annoying at first, was a relatively easy fix. However, I believe that with more practice I will be ale to comfortably work between the two and clearly diferenciate the major differences.
 
 ## Conclusion
 
