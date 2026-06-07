@@ -19,7 +19,31 @@ My prior experience with coding is pretty limited. In my previous ICS classes, I
 
 ## Similarities
 
+Let's start with some similarities. When first going into TypeScript, I was surprised by how similar much of the language felt. Which shouldn't be surprising since TypeScript is a subset of JavaScript. As I was working, I recognized a lot of the commands that I had used in my past experience. Commands such as; number, string, and boolean. This gave me a sence of familiarity that would be the structure of my TypeScript journey. 
 
+TypeScript’s class syntax also made the transition easier. Concepts like constructors, inheritance, and access modifiers were things I was already used to, so reading and writing TypeScript classes didn’t feel like starting from square one. For example:
+
+*Class in TypeScript*
+```
+class Student {
+  name: string;
+  constructor(name: string) {
+    this.name = name;
+  }
+}
+```
+
+*Class in Java*
+```
+class Student {
+  String name;
+  Student(String name) {
+    this.name = name;
+  }
+}
+```
+
+The same was true for functions. Writing a function with typed parameters and a typed return value felt almost identical to writing a method in C++ or Java. These similarities helped me get comfortable with the language faster than I expected.
 
 ## Differences
 
