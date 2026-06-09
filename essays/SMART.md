@@ -33,7 +33,9 @@ This aligns with Eric Raymond's guidelinesbecause the user demonstrates effort, 
 
 ```
 Hello!
-I need help creating an app for a school project. I have a limited background in coding, and I have no idea where to begin. Please help!
+I need help creating an app for a school project.
+I have a limited background in coding, and I have no idea where to begin.
+Please help!
 ```
 
 My example above, has several glaring issues that make it not an effective way of asking a question. First of all, other than it being for a "school project" there is no other context given. Details such as; what the app is, what coding language is needed, and what is needed for the app. Another huge problem is that the question is asking for general help with creating the app. Instead of asking smaller more detailed questions to get more precise answers. 
