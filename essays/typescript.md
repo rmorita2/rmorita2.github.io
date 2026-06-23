@@ -4,7 +4,7 @@ type: essay
 title: "Typescript First Impressions"
 # All dates must be YYYY-MM-DD format!
 date: 2026-06-06
-published: true
+published: false
 labels:
   - Typescript
 ---
